@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Clock.css">
+    <link rel="stylesheet" href="css/Cronometer.css">
+    <link rel="stylesheet" href="css/t.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Digital Clock</title>
+</head>
+<body>
+    
+    <div class="digital-clock">
+        <i class="uil uil-ellipsis-v dot-menu-btn " id="active-menu"></i>
+        <ul class="dot-menu" id="active-menu">
+            <li class="menu-item" id="active-menu">
+                <span class="clock-format-text" id="active-menu">24-hour format</span>
+                <div class="format-switch-btn" id="active-menu" data-format="12"></div>
+            </li>
+        </ul>
+        <div class="calendar">
+            <span class="month-name">Month</span>,
+            <span class="day-name">Day</span>
+            <span class="day-number">00</span>
+            <span class="year">0000</span>
+        </div>
+        <div class="time">
+            <span class="hours">00</span>
+            <span class="dots">:</span>
+            <span class="minutes">00</span>
+            <div class="right-side">
+                <span class="period">AM/PM</span>
+                <span class="seconds">00</span>
+            </div>
+        </div>
+            <br>
+            <br>
+            <h2>Cronometer</h2>
+
+        <!--Cronometer-->
+        <div id="contenedor">
+            <div class="number-count">
+                <div class="reloj" id="Horas">00</div>
+                <div class="reloj" id="Minutos">:00</div>
+                <div class="reloj" id="Segundos">:00</div>
+                <div class="reloj" id="Centesimas">:00</div>
+            </div>
+            <div class="buttons-cronometer">
+                <input type="button" class="boton" id="inicio" value="Start &#9658;" onclick="inicio();">
+                <input type="button" class="boton" id="parar" value="Stop &#8718;" onclick="parar();" disabled>
+                <input type="button" class="boton" id="continuar" value="Resume &#8634;" onclick="inicio();" disabled>
+                <input type="button" class="boton" id="reinicio" value="Reset &#8635;" onclick="reinicio();" disabled>
+            </div>
+        </div>
+
+
+
+        <!--Timer-->
+            <br>
+            <br>
+            <h2>Timer</h2>
+        <div class="timer">
+            <div class="timer-display">
+              <span class="minutes-timer">00</span>:<span class="seconds-timer">00</span>
+            </div>
+            <div class="timer-controls">
+              <button class="start boton">Start</button>
+              <button class="stop boton">Stop</button>
+              <button class="reset boton">Reset</button>
+            </div>
+          </div>
+
+    </div>
+
+</body>
+<script src="js/Clock.js"></script>
+<script src="js/Cronometer.js"></script>
+<script src="js/t.js"></script>
+</html>
