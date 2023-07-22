@@ -39,7 +39,7 @@ body{
     left: -5px;
     right: -5px;
     z-index: -1;
-    filter: blur(200px);
+    filter: blur(80px);
     animation: glowing 8s ease infinite;
 }
 
