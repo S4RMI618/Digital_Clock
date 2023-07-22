@@ -126,7 +126,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.3em;
+    font-size: 1.6em;
+    text-transform: capitalize;
     font-weight: 500;
     margin-bottom: 5px;
     background: -webkit-linear-gradient(90deg, #ae4af6, #ff98d1);

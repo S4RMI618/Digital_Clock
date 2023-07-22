@@ -15,26 +15,15 @@
 }
 
 .number-count{
-    font-size: 40px;
+    font-size: 30px;
     display: flex;
     flex-direction: row;
 }
 
 h2{
-    font-weight: 400;
-    background: -webkit-linear-gradient(90deg, #ae4af6, #ff98d1);
+    font-weight: 500;
+    background: -webkit-linear-gradient(90deg, #8E2DE2,#4A00E0);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
 
-.boton {
-    outline: none;
-	border: 1px solid #363431;
-	color: white;
-	width: 80px;
-	height: 40px;
-	font-size: 13px;
-	border-radius: 5px;
-	cursor: pointer;
-	background-image: linear-gradient(#8E2DE2,#4A00E0); 
-}
